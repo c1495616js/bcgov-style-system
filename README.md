@@ -26,3 +26,20 @@
 // Brand:
 <FontAwesomeIcon icon={["fab", "github"]} />
 ```
+
+### Storybook
+
+- [upgrade](https://medium.com/storybookjs/storybook-6-migration-guide-200346241bb5)
+- [with styled-components](https://github.com/echoulen/storybook-addon-styled-component-theme)
+
+### Others
+
+- [convert css to object](https://staxmanade.com/CssToReact/)
+
+## Refs
+
+- [Material UI](https://material-ui.com/)
+
+- https://figmacn.com/article/style-guides-component-libraries-design-systems
+
+- https://egghead.io/lessons/react-introducing-design-systems-with-react-and-typescript-in-storybook

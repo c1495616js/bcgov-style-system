@@ -1,12 +1,15 @@
 import React from 'react';
-import { ThemeProvider } from 'emotion-theming';
-import { theme } from './theme';
+
+import { AppProvider } from './components/common/AppProvider';
+
+import { Button } from './components/button/Button';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <AppProvider>
       <div>App</div>
-    </ThemeProvider>
+      <Button variant="primary">HIII</Button>
+    </AppProvider>
   );
 }
 

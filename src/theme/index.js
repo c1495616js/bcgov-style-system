@@ -1,7 +1,7 @@
-export const theme = {
+const baseTheme = {
   colors: {
     primary: '#003366',
-    primaryBeta: '#FCBA19',
+    'primary-beta': '#FCBA19',
     text: '#313132',
     links: '#1A5A96',
     bgNav: '#38598A',
@@ -9,5 +9,41 @@ export const theme = {
     components: '#606060',
     error: '#D8292F',
     success: '#2E8540',
+    white: '#FFF',
+  },
+};
+export const theme = {
+  ...baseTheme,
+  buttons: {
+    primary: {
+      backgroundColor: baseTheme.colors.primary,
+      border: 'none',
+      borderRadius: '4px',
+      color: baseTheme.colors.white,
+      padding: '12px 32px',
+      textAlign: 'center',
+      textDecoration: 'none',
+      display: 'block',
+      fontSize: '18px',
+      fontFamily: `'BCSans', 'Noto Sans', Verdana, Arial, sans-serif`,
+      fontWeight: '700',
+      letterSpacing: '1px',
+      cursor: 'pointer',
+    },
+    secondary: {
+      background: 'none',
+      borderRadius: '4px',
+      border: '2px solid #003366',
+      padding: '10px 30px',
+      textAlign: 'center',
+      textDecoration: 'none',
+      display: 'block',
+      fontSize: '18px',
+      FontFamily: `'BCSans', 'Noto Sans', Verdana, Arial, sans-serif`,
+      fontWeight: '700',
+      letterSpacing: '1px',
+      cursor: 'pointer',
+      color: '#003366',
+    },
   },
 };
