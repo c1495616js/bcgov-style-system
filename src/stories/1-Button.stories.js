@@ -9,12 +9,20 @@ export default {
 
 export const Primary = () => (
   <Button variant="primary" onClick={action('clicked')}>
-    Primary
+    Submit
   </Button>
 );
 
 export const Secondary = () => (
   <Button variant="secondary" onClick={action('clicked')}>
-    Secondary
+    Submit
   </Button>
+);
+
+export const PrimaryDisabled = () => (
+  <Button variant="primary-disabled">Submit</Button>
+);
+
+export const SecondaryDisabled = () => (
+  <Button variant="secondary-disabled">Submit</Button>
 );

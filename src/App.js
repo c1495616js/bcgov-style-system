@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { AppProvider } from './components/common/AppProvider';
-
 import { Button } from './components/button/Button';
 
 function App() {
