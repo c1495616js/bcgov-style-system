@@ -46,4 +46,4 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ## BC Govs
 
-- https://bcgov.github.io/react-shared-components/
+- https://github.com/bcgov/react-shared-components
