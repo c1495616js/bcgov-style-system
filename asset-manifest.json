@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "./main.7a1959a0cc26cf3a20e3.bundle.js",
+    "main.js.map": "./main.7a1959a0cc26cf3a20e3.bundle.js.map",
+    "runtime~main.js": "./runtime~main.7a1959a0cc26cf3a20e3.bundle.js",
+    "runtime~main.js.map": "./runtime~main.7a1959a0cc26cf3a20e3.bundle.js.map",
+    "vendors~main.css": "./static/css/vendors~main.03afe301.chunk.css",
+    "vendors~main.js": "./vendors~main.7a1959a0cc26cf3a20e3.bundle.js",
+    "vendors~main.css.map": "./static/css/vendors~main.03afe301.chunk.css.map",
+    "vendors~main.js.map": "./vendors~main.7a1959a0cc26cf3a20e3.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "precache-manifest.8f976aabcd0a6162302ba82806894ff9.js": "./precache-manifest.8f976aabcd0a6162302ba82806894ff9.js",
+    "service-worker.js": "./service-worker.js",
+    "static/media/BCID_H_rgb_rev.svg": "./static/media/BCID_H_rgb_rev.20eebe74.svg",
+    "static/media/BCSans.css": "./static/media/BCSans-Regular.50c6f5f1.woff",
+    "static/media/all.min.css": "./static/media/fa-solid-900.ee09ad75.woff",
+    "vendors~main.7a1959a0cc26cf3a20e3.bundle.js.LICENSE.txt": "./vendors~main.7a1959a0cc26cf3a20e3.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.7a1959a0cc26cf3a20e3.bundle.js",
+    "static/css/vendors~main.03afe301.chunk.css",
+    "vendors~main.7a1959a0cc26cf3a20e3.bundle.js",
+    "main.7a1959a0cc26cf3a20e3.bundle.js"
+  ]
+}
